@@ -23,6 +23,12 @@
 <!-- END PHP Logic block -->
 
 <?php
+    echo "<h3>Output of SERVER: </h3>";
+    var_dump($_SERVER);
+?> 
+
+<?php
     phpinfo(); // phpinfo() is commonly used to check configuration settings and for available predefined variables on a given system.
 ?>
+
 
